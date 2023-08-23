@@ -1,0 +1,23 @@
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-grow: 2;
+    padding-right: 5px;
+}
+.pad{
+    margin-right: 10px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding-inline: 15px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+

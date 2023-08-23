@@ -1,0 +1,128 @@
+
+.container {
+  display: flex;
+  width: 80vh;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 20px ;
+}
+
+.half {
+  flex: 1;
+  height: 55vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.average{
+  display: flex;
+  border-radius: 20px;
+  background: linear-gradient(to bottom,  #6844ff , #322be7  );
+  justify-content: space-evenly;
+  align-items: center; /* Center items vertically */
+  flex-direction: column; /* Stack children in a column */
+}
+.results{
+  display: flex;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  align-items: center; /* Center items vertically */
+  flex-direction: column; /* Stack children in a column */
+  background: white;
+}
+
+.averagetitle{
+  
+  color: #c9c2ff;
+  font-size: 1rem;
+  font-family:CustomFont ;
+  margin-bottom: 0%;
+ 
+
+}
+.averageNo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25vh;
+  height: 25vh;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, rgb(77,33,200,.9), transparent);
+  position: relative; 
+  
+}
+
+h3{
+  font-family: CustomFont-extrabold;
+  font-size: 3rem;
+  color: white; 
+  text-align: center;
+}
+.of100 {
+  font-family: CustomFont;
+  font-size: .7rem;
+  color: #6f61f0;
+  text-align: center;
+  position: absolute; 
+  bottom: 0; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  margin-top: 10%;
+  margin-bottom: 20%; 
+}
+
+.averageText{
+  justify-content: space-evenly;
+  align-items: center; /* Center items vertically */
+  flex-direction: column; /* Stack children in a column */
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+.status{
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  font-family: CustomFont-bold;
+}
+
+
+.textAV{
+  text-align: center;
+  color:#c9c2ff;
+  font-family: CustomFont-Medium;
+  font-size: .8rem;
+  padding-bottom: 10px;
+}
+
+
+.summary{
+  color: black;
+  font-size: 1rem;
+  font-family:CustomFont ;
+}
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../public/assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+  /* Add more font formats if necessary */
+}
+@font-face {
+  font-family: 'CustomFont-extrabold';
+  src: url('../public/assets/fonts/static/HankenGrotesk-ExtraBold.ttf') format('truetype');
+  /* Add more font formats if necessary */
+}
+@font-face {
+  font-family: 'CustomFont-bold';
+  src: url('../public/assets/fonts/static/HankenGrotesk-Bold.ttf') format('truetype');
+  /* Add more font formats if necessary */
+}
+@font-face {
+  font-family: 'CustomFont-Medium';
+  src: url('../public/assets/fonts/static/HankenGrotesk-Medium.ttf') format('truetype');
+  /* Add more font formats if necessary */
+}
+
+
