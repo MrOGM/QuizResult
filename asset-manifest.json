@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/QuizResult/static/css/main.74251f72.css",
+    "main.js": "/QuizResult/static/js/main.9c948c96.js",
+    "static/media/HankenGrotesk-VariableFont_wght.ttf": "/QuizResult/static/media/HankenGrotesk-VariableFont_wght.d642a5d85689aa7d33db.ttf",
+    "static/media/HankenGrotesk-Medium.ttf": "/QuizResult/static/media/HankenGrotesk-Medium.234bf52fb6d6a56a561d.ttf",
+    "static/media/HankenGrotesk-ExtraBold.ttf": "/QuizResult/static/media/HankenGrotesk-ExtraBold.97e81bf3b3e87ffcef41.ttf",
+    "static/media/HankenGrotesk-Bold.ttf": "/QuizResult/static/media/HankenGrotesk-Bold.1161826a8f452bc76b77.ttf",
+    "index.html": "/QuizResult/index.html",
+    "main.74251f72.css.map": "/QuizResult/static/css/main.74251f72.css.map",
+    "main.9c948c96.js.map": "/QuizResult/static/js/main.9c948c96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74251f72.css",
+    "static/js/main.9c948c96.js"
+  ]
+}
